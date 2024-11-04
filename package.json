@@ -41,6 +41,7 @@
     "@testing-library/dom": "^10.4.0"
   },
   "main": "index.js",
+  "type":"module",
   "repository": "git@github.com:AlexandrYaskevich/Highlight.git",
   "author": "AppVeyor <yask.alexandr@gmail.com>",
   "license": "MIT"
