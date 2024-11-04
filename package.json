@@ -38,10 +38,15 @@
     ]
   },
   "devDependencies": {
-    "@testing-library/dom": "^10.4.0"
+    "@testing-library/dom": "^10.4.0",
+    "@typescript-eslint/parser": "^8.12.2",
+    "eslint": "8.56.0",
+    "eslint-plugin-vue": "^9.30.0",
+    "typescript-eslint": "^8.12.2",
+    "vue-eslint-parser": "^9.4.3"
   },
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "repository": "git@github.com:AlexandrYaskevich/Highlight.git",
   "author": "AppVeyor <yask.alexandr@gmail.com>",
   "license": "MIT"
