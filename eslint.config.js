@@ -32,7 +32,7 @@ export default [
       "react/prop-types": "off",
       "react/jsx-uses-react": "error",   
       "react/jsx-uses-vars": "error" ,
-      "react/no-unknown-property": ['error', { ignore: ['jsx'] }],
+      "react/no-unknown-property": [2, { "ignore": ["frameborder"] }],
       'react-refresh/only-export-components': [
         'warn',
         { allowConstantExport: true },
