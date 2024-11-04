@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 function withHightlight (Wrapped) {
- return function (props, ...args) {
+ return function Z(props, ...args) {
    if(props.views >= 1000) {
       return <Popular>{<Wrapped {...props} {...args} />}</Popular>;
    } else if (props.views < 100) {
@@ -69,7 +69,7 @@ function List(props) {
 };
 
 export default function App() {
-    const [list, setList] = useState([
+    const [list] = useState([
         {
             type: 'video',
             url: 'https://www.youtube.com/embed/rN6nlNC9WQA?rel=0&amp;controls=0&amp;showinfo=0',
